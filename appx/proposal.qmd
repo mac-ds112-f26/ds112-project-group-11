@@ -2,4 +2,41 @@
 title: "Proposal"
 ---
 
-Your proposal go here.
+**Title:** Level of Education in Relation to Employment Rates.
+
+**Team member names:** Gera, Faithangel, Gezelle
+
+**Description of the project:** Our project will take the level of education and see how that impacts employment rates in multiple different countries.
+
+**Research questions the team is interested in exploring:**
+
+ To what extend level of education impact employment rate in different countries? 
+- Do certain levels of education and degrees grant more opportunities for jobs and careers? 
+- Do countries with less access to education have lower or higher employment rates?
+
+**The reasons/inspirations behind choosing the topic**
+
+We are interested in knowing the correlation between level of education and employment rate across countries. As we are at a starting point, we are open to include other variables within this correlation as confounders and effects modifiers. Analyzing this relationship allows us to understand the role of education in the increase or decrease of employment under certain conditions. 
+
+**Potential data set that can be used to answer the research questions**
+
+- Unemployment percentage: https://data.worldbank.org/indicator/SL.UEM.TOTL.NE.ZS 
+- Educational attainment by level of education: https://genderdata.worldbank.org/en/indicator/se-cuat-zs 
+
+**Communication plan**
+
+- Primary communication channel : whatsapp + instagram direct messages
+- Expected responses : by the end of the day, latest 8pm
+- Meeting times: Wednesdays after 4:30 pm
+
+**Roles**  
+
+- Gezelle: point of contact–the main person to email the instructor/preceptors,
+- Faithangel: style lead–the person who will make sure the code is following the COMP/STAT 112/212: Code Styling Guide 
+- Gera: technical lead–the person who will oversee the code base and website
+- All: check each other's process, everyone should check codes and be able to explain the concepts when making this project .
+
+**Conflict resolution** ie, if a team member misses a deadline, how will the team handle it? How will you make decisions if the team is split 50/50 on a something?
+
+If a team member fails to meet a deadline, they would have a reminder. It’s	important to know everyone has a life outside of school and life can get busy. However, if it is a repeated action, there would need to be a talk with the instructor about this. 
+
