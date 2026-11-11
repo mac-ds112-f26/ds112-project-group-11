@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Project Title",
+    "section": "",
+    "text": "Your report goes here.\n\nCode# a test code chunk",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Report</span>"
+    ]
+  },
+  {
+    "objectID": "eda/eda-member1.html",
+    "href": "eda/eda-member1.html",
+    "title": "Member 1 First Name & Last Name Initial",
+    "section": "",
+    "text": "Your exploratory data analysis of the team datasets go here.",
+    "crumbs": [
+      "EDA",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Member 1 First Name & Last Name Initial</span>"
+    ]
+  },
+  {
+    "objectID": "eda/eda-member2.html",
+    "href": "eda/eda-member2.html",
+    "title": "Member 2 First Name & Last Name Initial",
+    "section": "",
+    "text": "Your exploratory data analysis of the team datasets go here.",
+    "crumbs": [
+      "EDA",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Member 2 First Name & Last Name Initial</span>"
+    ]
+  },
+  {
+    "objectID": "eda/eda-member3.html",
+    "href": "eda/eda-member3.html",
+    "title": "Member 3 First Name & Last Name Initial",
+    "section": "",
+    "text": "Your exploratory data analysis of the team datasets go here.",
+    "crumbs": [
+      "EDA",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Member 3 First Name & Last Name Initial</span>"
+    ]
+  },
+  {
+    "objectID": "appx/proposal.html",
+    "href": "appx/proposal.html",
+    "title": "Appendix A — Proposal",
+    "section": "",
+    "text": "Title: Level of Education in Relation to Employment Rates.\nTeam member names: Gera, Faithangel, Gezelle\nDescription of the project: Our project will take the level of education and see how that impacts employment rates in multiple different countries.\nResearch questions the team is interested in exploring:\nTo what extend level of education impact employment rate in different countries? - Do certain levels of education and degrees grant more opportunities for jobs and careers? - Do countries with less access to education have lower or higher employment rates?\nThe reasons/inspirations behind choosing the topic\nWe are interested in knowing the correlation between level of education and employment rate across countries. As we are at a starting point, we are open to include other variables within this correlation as confounders and effects modifiers. Analyzing this relationship allows us to understand the role of education in the increase or decrease of employment under certain conditions.\nPotential data set that can be used to answer the research questions\n\nUnemployment percentage: https://data.worldbank.org/indicator/SL.UEM.TOTL.NE.ZS\nEducational attainment by level of education: https://genderdata.worldbank.org/en/indicator/se-cuat-zs\n\nCommunication plan\n\nPrimary communication channel : whatsapp + instagram direct messages\nExpected responses : by the end of the day, latest 8pm\nMeeting times: Wednesdays after 4:30 pm\n\nRoles\n\nGezelle: point of contact–the main person to email the instructor/preceptors,\nFaithangel: style lead–the person who will make sure the code is following the COMP/STAT 112/212: Code Styling Guide\nGera: technical lead–the person who will oversee the code base and website\nAll: check each other’s process, everyone should check codes and be able to explain the concepts when making this project .\n\nConflict resolution ie, if a team member misses a deadline, how will the team handle it? How will you make decisions if the team is split 50/50 on a something?\nIf a team member fails to meet a deadline, they would have a reminder. It’s important to know everyone has a life outside of school and life can get busy. However, if it is a repeated action, there would need to be a talk with the instructor about this.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Proposal</span>"
+    ]
+  },
+  {
+    "objectID": "appx/case-study.html",
+    "href": "appx/case-study.html",
+    "title": "Appendix B — Case Study",
+    "section": "",
+    "text": "Your case study go here.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Case Study</span>"
+    ]
+  },
+  {
+    "objectID": "wa/wa-member1.html",
+    "href": "wa/wa-member1.html",
+    "title": "Appendix C — Member 1 First Name & Last Name Initial",
+    "section": "",
+    "text": "Work area to try code",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Member 1 First Name & Last Name Initial</span>"
+    ]
+  },
+  {
+    "objectID": "wa/wa-member2.html",
+    "href": "wa/wa-member2.html",
+    "title": "Appendix D — Member 2 First Name & Last Name Initial",
+    "section": "",
+    "text": "Work area to try code",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>D</span>  <span class='chapter-title'>Member 2 First Name & Last Name Initial</span>"
+    ]
+  },
+  {
+    "objectID": "wa/wa-member3.html",
+    "href": "wa/wa-member3.html",
+    "title": "Appendix E — Member 3 First Name & Last Name Initial",
+    "section": "",
+    "text": "Work area to try code",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>Member 3 First Name & Last Name Initial</span>"
+    ]
+  }
+]
