@@ -1,0 +1,12 @@
+---
+title: "hi"
+format: html
+---
+
+```{r}
+library(readxl)
+education <- read_excel("~/education.xlsx")
+
+head(education)
+```
+

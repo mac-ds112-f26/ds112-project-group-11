@@ -1,5 +1,38 @@
 ---
-title: "Member 2 First Name & Last Name Initial"
+title: "Gera C"
 ---
 
 Your exploratory data analysis of the team datasets go here.
+
+```{r}
+library(readxl)
+education <- read_excel("~/education.xlsx")
+head(education)
+```
+
+```{r}
+#Wrangling data
+library(tidyverse)
+education <- education |> 
+  separate (`Disaggregation`, c("level", "sex"), sep=",") |> 
+  select(-c(`Indicator Name`, `Indicator Code`))
+```
+
+```{r}
+education |> 
+  group_by(`Country Name`) 
+```
+
+
+```{r}
+#Average
+education |> 
+  filter(Year %in% 2010:2020) |> 
+  group_by(Year) |> 
+  summarise(mean_value = mean(Value)) |> 
+  ggplot(aes(x=Year, y=mean_value)) +
+  geom_point() +
+  geom_line() +
+  labs(title = "Average World Education attainment between 2010 - 2020", x="Year", y= "Percentage over the Population 25+") +
+  scale_x_continuous(breaks = seq(2010,2020, by = 1)) 
+```
