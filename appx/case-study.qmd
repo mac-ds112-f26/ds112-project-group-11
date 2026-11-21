@@ -2,4 +2,11 @@
 title: "Case Study"
 ---
 
-Your case study go here.
+# Case 1: The Pudding - The Unlikely Odds of Making It Big
+
+*- Readability:* This website is easy to follow as the story has a lineal sequence of events. Each idea is separated in the paragraph that helps to navigate the text and graphs.
+
+*- Data:* The data that they used is about bands that had played in a small venues in NYC in 2013 and how successful have been since them. Data looks more at ratios and subgroups. 
+
+*- Effectiveness:* The main graph is an interactive graph that implements more elements as the story increases. This is helpful because while the reader is understanding the transition of small bands to popular bands, the graph shows how small the number of bands that succeed in this transition is.  
+
