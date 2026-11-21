@@ -3,3 +3,46 @@ title: "Member 1 First Name & Last Name Initial"
 ---
 
 Your exploratory data analysis of the team datasets go here.
+
+```{r}
+library(readxl)
+library(ggplot2)
+library(tidyverse)
+
+library(readxl)
+Unemployment_Data <- read_excel("~/Downloads/Unemployment Data.xlsx")
+
+```
+
+
+
+```{r}
+path <- "~/Downloads/Unemployment Data.xlsx"
+
+# find the real header row ("Country Name")
+peek <- read_excel(path, col_names = FALSE)
+hdr  <- which(apply(peek, 1, function(r) any(r == "Country Name", na.rm = TRUE)))[1]
+
+unemp <- read_excel(path, skip = hdr - 1)
+
+names(unemp)
+
+```
+
+```{r plot}
+unemp |>
+  filter(`Country Name` %in% c("United States", "Canada", "United Kingdom",
+                               "Germany", "France", "Japan", "Thailand",
+                               "Puerto Rico", "Uruguay", "Mexico",
+                               "Argentina", "South Africa", "Nepal")) |>
+  select(country = `Country Name`, `2000.0`:`2024.0`) |>
+  pivot_longer(-country, names_to = "yr", values_to = "rate") |>
+  mutate(yr = as.numeric(yr), rate = as.numeric(rate)) |>
+  ggplot(aes(x = yr, y = rate, color = country)) +
+  geom_line(linewidth = 1.2) +
+  labs(title = "Unemployment Rate, 2000-2025",
+       x = NULL, y = "Unemployment rate (%)", color = "Country") +
+  theme_minimal()
+
+```
+
